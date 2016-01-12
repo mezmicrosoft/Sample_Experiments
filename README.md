@@ -1,2 +1,2 @@
 # Sample_Experiments
-This is a repository to store the Sample Experiments for Cortana Analaytics Gallery.
+This is a repository to store source files of the Sample Experiments for Cortana Analaytics Gallery.
