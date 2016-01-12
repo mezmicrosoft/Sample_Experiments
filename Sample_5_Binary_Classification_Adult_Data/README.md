@@ -26,12 +26,12 @@ The complete experiment graph is given below.
 From these results, you can see that the **Two-Class Boosted Decision Tree** is fairly accurate in predicting income for the `Adult Census Income` dataset.
 ![][image6]
 
-## Develop Web Service ##
-Once you are satisfy with the above results, you can develop a web service for this experiment.
+## Set Up Web Service ##
+Once you are satisfy with the above results, you can set up a web service for this experiment.
 1. Select _Update Predictive Experiment_ from the **SET UP WEB SERVICE** option, you will see a _Predictive experiment_ as below.
 ![][image7]
 ![][image8]
-2. Make some minor modifications on this _Predictive experiment_ before developing is as a web service.
+2. Make some minor modifications on this _Predictive experiment_ before deploying is as a web service.
 	1. Add a **Project Columns** module that links to the out port of **Metadata Editor** module and the right port of **Score Model** module to remove the label column `income`.
 	2. Connect **Web service input** to the right port of **Score Model** module so that the format of input data from web service will be same as the the pre-processed data.
 ![][image9]
