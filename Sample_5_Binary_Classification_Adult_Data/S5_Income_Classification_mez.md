@@ -28,5 +28,8 @@ From these results, you can see that the **Two-Class Boosted Decision Tree** is 
 
 <!-- Images -->
 [image1]:https://raw.githubusercontent.com/mezmicrosoft/Sample_Experiments/master/Sample_5_Binary_Classification_Adult_Data/image1.PNG
-[image2]:https://raw.githubusercontent.com/mezmicrosoft/Sample_Experiments/master/Permutation_Feature_Importance/image1.PNG
-[image3]:https://raw.githubusercontent.com/mezmicrosoft/Sample_Experiments/master/Permutation_Feature_Importance/image2.PNG
+[image2]:https://raw.githubusercontent.com/mezmicrosoft/Sample_Experiments/master/Sample_5_Binary_Classification_Adult_Data/image2.PNG
+[image3]:https://raw.githubusercontent.com/mezmicrosoft/Sample_Experiments/master/Sample_5_Binary_Classification_Adult_Data/image3.PNG
+[image4]:https://raw.githubusercontent.com/mezmicrosoft/Sample_Experiments/master/Sample_5_Binary_Classification_Adult_Data/image4.PNG
+[image5]:https://raw.githubusercontent.com/mezmicrosoft/Sample_Experiments/master/Sample_5_Binary_Classification_Adult_Data/image5.PNG
+[image6]:https://raw.githubusercontent.com/mezmicrosoft/Sample_Experiments/master/Sample_5_Binary_Classification_Adult_Data/image6.PNG

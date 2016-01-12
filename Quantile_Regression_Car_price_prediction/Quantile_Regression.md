@@ -54,10 +54,10 @@ Quantile regression models optimize for _check loss_ or _quantile loss_. This lo
 ![][image5]
 
 <!-- images -->
-[image1]:http://az712634.vo.msecnd.net/samplesimg/v1/38/data.png
-[image2]:http://az712634.vo.msecnd.net/samplesimg/v1/38/pre-process.PNG
-[image3]:http://az712634.vo.msecnd.net/samplesimg/v1/38/parameters.png
-[image4]:http://az712634.vo.msecnd.net/samplesimg/v1/38/scores.PNG
-[image5]:http://az712634.vo.msecnd.net/samplesimg/v1/38/evaluation.PNG
-[image6]:http://az712634.vo.msecnd.net/samplesimg/v1/38/quantiles.PNG
-[image7]:http://az712634.vo.msecnd.net/samplesimg/v1/38/full-experiment.PNG
+[image1]:https://raw.githubusercontent.com/mezmicrosoft/Sample_Experiments/master/Quantile_Regression_Car_price_prediction/image1.png
+[image2]:https://raw.githubusercontent.com/mezmicrosoft/Sample_Experiments/master/Quantile_Regression_Car_price_prediction/image2.PNG
+[image3]:https://raw.githubusercontent.com/mezmicrosoft/Sample_Experiments/master/Quantile_Regression_Car_price_prediction/image3.png
+[image4]:https://raw.githubusercontent.com/mezmicrosoft/Sample_Experiments/master/Quantile_Regression_Car_price_prediction/image4.PNG
+[image5]:https://raw.githubusercontent.com/mezmicrosoft/Sample_Experiments/master/Quantile_Regression_Car_price_prediction/image5.PNG
+[image6]:https://raw.githubusercontent.com/mezmicrosoft/Sample_Experiments/master/Quantile_Regression_Car_price_prediction/image6.PNG
+[image7]:https://raw.githubusercontent.com/mezmicrosoft/Sample_Experiments/master/Quantile_Regression_Car_price_prediction/image7.PNG

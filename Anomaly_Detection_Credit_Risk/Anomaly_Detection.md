@@ -9,7 +9,7 @@ The most notable difference compared to supervised classification is that the tr
 ## Data
 Training data consists of credit card applications. The dataset consists of 1000 entries with 20 feature columns and 1 label column. The features are a mix of numeric and categorical types. The original data and the description of individual columns can be found in the [UCI data repository](https://archive.ics.uci.edu/ml/machine-learning-databases/statlog/german/).  In order to train the anomaly detectors we will be relying only on the 'normal' category (label value = 1) while ignoring the 'risky' category (label value = 2). However, we will be using both categories for evaluating the detector.
 
-**If you change this experiment for your specific problem that has different labels for normal and abnormal samples, make sure you change the "Regular expression" condition accordingly in the two Split Data modules below that select rows containing 'normal' transactions.**
+**_If you change this experiment for your specific problem that has different labels for normal and abnormal samples, make sure you change the "Regular expression" condition accordingly in the two Split Data modules below that select rows containing 'normal' transactions._**
 
 ![][image1]
 
@@ -64,11 +64,11 @@ We use the generic __Evaluate__ Anomaly detectors can be evaluated on the same m
 ![][image7]
 
 <!-- Images -->
-[image1]:http://az712634.vo.msecnd.net/samplesimg/v1/31/dataset.PNG
-[image2]:http://az712634.vo.msecnd.net/samplesimg/v1/31/preprocess.PNG
-[image3]:http://az712634.vo.msecnd.net/samplesimg/v1/31/trainmodule.PNG
-[image4]:http://az712634.vo.msecnd.net/samplesimg/v1/31/parameter-range.PNG
-[image5]:http://az712634.vo.msecnd.net/samplesimg/v1/31/parameter-sweep.PNG
-[image6]:http://az712634.vo.msecnd.net/samplesimg/v1/31/retrain.PNG
-[image7]:http://az712634.vo.msecnd.net/samplesimg/v1/31/roc.PNG
-[image8]:http://az712634.vo.msecnd.net/samplesimg/v1/31/experiment.PNG
+[image1]:https://raw.githubusercontent.com/mezmicrosoft/Sample_Experiments/master/Anomaly_Detection_Credit_Risk/image1.PNG
+[image2]:https://raw.githubusercontent.com/mezmicrosoft/Sample_Experiments/master/Anomaly_Detection_Credit_Risk/image2.PNG
+[image3]:https://raw.githubusercontent.com/mezmicrosoft/Sample_Experiments/master/Anomaly_Detection_Credit_Risk/image3.PNG
+[image4]:https://raw.githubusercontent.com/mezmicrosoft/Sample_Experiments/master/Anomaly_Detection_Credit_Risk/image4.PNG
+[image5]:https://raw.githubusercontent.com/mezmicrosoft/Sample_Experiments/master/Anomaly_Detection_Credit_Risk/image5.PNG
+[image6]:https://raw.githubusercontent.com/mezmicrosoft/Sample_Experiments/master/Anomaly_Detection_Credit_Risk/image6.PNG
+[image7]:https://raw.githubusercontent.com/mezmicrosoft/Sample_Experiments/master/Anomaly_Detection_Credit_Risk/image7.PNG
+[image8]:https://raw.githubusercontent.com/mezmicrosoft/Sample_Experiments/master/Anomaly_Detection_Credit_Risk/image8.PNG
