@@ -47,3 +47,8 @@ You can also test the results by giving a particular set of input values through
 [image4]:https://raw.githubusercontent.com/mezmicrosoft/Sample_Experiments/master/Sample_5_Binary_Classification_Adult_Data/image4.PNG
 [image5]:https://raw.githubusercontent.com/mezmicrosoft/Sample_Experiments/master/Sample_5_Binary_Classification_Adult_Data/image5.PNG
 [image6]:https://raw.githubusercontent.com/mezmicrosoft/Sample_Experiments/master/Sample_5_Binary_Classification_Adult_Data/image6.PNG
+[image7]:https://raw.githubusercontent.com/mezmicrosoft/Sample_Experiments/master/Sample_5_Binary_Classification_Adult_Data/image7.PNG
+[image8]:https://raw.githubusercontent.com/mezmicrosoft/Sample_Experiments/master/Sample_5_Binary_Classification_Adult_Data/image8.PNG
+[image9]:https://raw.githubusercontent.com/mezmicrosoft/Sample_Experiments/master/Sample_5_Binary_Classification_Adult_Data/image9.PNG
+[image10]:https://raw.githubusercontent.com/mezmicrosoft/Sample_Experiments/master/Sample_5_Binary_Classification_Adult_Data/image10.PNG
+[image11]:https://raw.githubusercontent.com/mezmicrosoft/Sample_Experiments/master/Sample_5_Binary_Classification_Adult_Data/image11.PNG
