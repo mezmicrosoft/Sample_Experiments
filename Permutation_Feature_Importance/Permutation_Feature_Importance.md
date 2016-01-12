@@ -34,5 +34,5 @@ In addition to binary classification models, the **Permutation Feature Importanc
 
 <!-- Images -->
 [image0]:https://github.com/mezmicrosoft/Sample_Experiments/blob/master/Permutation_Feature_Importance/image0.PNG
-[image1]:https://az712634.vo.msecnd.net/samplesimg/v1/23/pfiresults.PNG
-[image2]:https://az712634.vo.msecnd.net/samplesimg/v1/23/metric.PNG
+[image1]:https://github.com/mezmicrosoft/Sample_Experiments/blob/master/Permutation_Feature_Importance/image1.PNG
+[image2]:https://github.com/mezmicrosoft/Sample_Experiments/blob/master/Permutation_Feature_Importance/image2.PNG
