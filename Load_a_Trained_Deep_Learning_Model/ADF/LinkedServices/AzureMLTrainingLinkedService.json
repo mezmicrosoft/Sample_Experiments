@@ -1,0 +1,12 @@
+{
+    "name": "AzureMLTrainingLinkedService",
+    "properties": {
+        "description": "",
+        "hubName": "amlsampledf_hub",
+        "type": "AzureML",
+        "typeProperties": {
+            "mlEndpoint": "https://ussouthcentral.services.azureml.net/workspaces/5913aab6a5b444b4b9103eb35db0697f/services/413460e79f7749f295b4a1c46b36d10f/jobs?api-version=2.0",
+            "apiKey": "**********"
+        }
+    }
+}

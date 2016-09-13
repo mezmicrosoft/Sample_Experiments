@@ -1,0 +1,45 @@
+{
+    "name": "trainingPipeline3",
+    "properties": {
+        "activities": [
+            {
+                "type": "AzureMLBatchExecution",
+                "typeProperties": {
+                    "webServiceInput": "NNInputBlob3",
+                    "webServiceOutputs": {
+                        "output2": "NNModelBlob3"
+                    },
+                    "webServiceInputs": {},
+                    "globalParameters": {}
+                },
+                "inputs": [
+                    {
+                        "name": "NNInputBlob3"
+                    }
+                ],
+                "outputs": [
+                    {
+                        "name": "NNModelBlob3"
+                    }
+                ],
+                "policy": {
+                    "timeout": "02:00:00",
+                    "concurrency": 1,
+                    "executionPriorityOrder": "NewestFirst",
+                    "retry": 1
+                },
+                "scheduler": {
+                    "frequency": "Minute",
+                    "interval": 15
+                },
+                "name": "training3",
+                "linkedServiceName": "AzureMLTrainingLinkedService3"
+            }
+        ],
+        "start": "2016-09-09T00:00:00Z",
+        "end": "2016-09-10T00:00:00Z",
+        "isPaused": true,
+        "hubName": "amlsampledf_hub",
+        "pipelineMode": "Scheduled"
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "name": "NNInputBlob2",
+    "properties": {
+        "published": false,
+        "type": "AzureBlob",
+        "linkedServiceName": "AzureStorageLinkedService",
+        "typeProperties": {
+            "fileName": "MNIST_training2.tsv",
+            "folderPath": "nninputblob",
+            "format": {
+                "type": "TextFormat",
+                "columnDelimiter": "\t",
+                "treatEmptyAsNull": true,
+                "firstRowAsHeader": true
+            }
+        },
+        "availability": {
+            "frequency": "Minute",
+            "interval": 15
+        },
+        "external": true,
+        "policy": {
+            "externalData": {
+                "retryInterval": "00:01:00",
+                "retryTimeout": "00:10:00",
+                "maximumRetry": 3
+            }
+        }
+    }
+}

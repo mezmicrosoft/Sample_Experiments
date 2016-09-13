@@ -1,0 +1,11 @@
+{
+    "name": "AzureStorageLinkedService",
+    "properties": {
+        "description": "The azure blob storage to store input datasets, iLearner files and output predictions.",
+        "hubName": "amlsampledf_hub",
+        "type": "AzureStorage",
+        "typeProperties": {
+            "connectionString": "DefaultEndpointsProtocol=https;AccountName=amlsample;AccountKey=**********"
+        }
+    }
+}

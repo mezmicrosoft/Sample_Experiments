@@ -1,0 +1,39 @@
+{
+    "name": "NNResultBlob",
+    "properties": {
+        "published": false,
+        "type": "AzureBlob",
+        "linkedServiceName": "AzureStorageLinkedService",
+        "typeProperties": {
+            "fileName": "{filepart}result.csv",
+            "folderPath": "nnresultblob/{folderpart}/",
+            "format": {
+                "type": "TextFormat",
+                "columnDelimiter": ",",
+                "firstRowAsHeader": true
+            },
+            "partitionedBy": [
+                {
+                    "name": "folderpart",
+                    "value": {
+                        "type": "DateTime",
+                        "date": "SliceStart",
+                        "format": "yyyyMMdd"
+                    }
+                },
+                {
+                    "name": "filepart",
+                    "value": {
+                        "type": "DateTime",
+                        "date": "SliceStart",
+                        "format": "HHmmss"
+                    }
+                }
+            ]
+        },
+        "availability": {
+            "frequency": "Minute",
+            "interval": 15
+        }
+    }
+}
