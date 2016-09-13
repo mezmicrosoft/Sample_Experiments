@@ -1,5 +1,5 @@
 # Summary #
-This Collection includes a training experiment and a predictive experiment with a retraining web service and a predictive web service, respectively. This Collection demonstrates the usage of the **Load Trained Model** module to allow an easy request to a trained model.
+This Collection includes a training experiment and a predictive experiment with a retraining web service and a predictive web service, respectively. This Collection demonstrates the usage of the Load Trained Model module to allow an easy request to a trained model.
 
 
 # Load a Trained Deep Learning Model #
